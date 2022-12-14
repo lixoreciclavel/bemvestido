@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.tudo{
+    width: 1280px;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    position: absolute;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+}
+
+#foto1{
+    background-image: url(../img/Foto1.png);
+    width: 640px;
+    height: 803px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#foto2{
+    background-image: url(../img/Foto2.png);
+    width: 640px;
+    height: 803px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#foto3{
+    background-image: url(../img/foto3.png);
+    width: 320px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#foto4{
+    background-image: url(../img/foto4.png);
+    width: 320px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#foto5{
+    background-image: url(../img/foto5.png);
+    width: 320px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#foto6{
+    background-image: url(../img/foto6.png);
+    width: 320px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#foto7{
+    background-image: url(../img/foto7.png);
+    width: 427px;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#foto8{
+    background-image: url(../img/foto8.png);
+    width: 426px;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#foto9{
+    background-image: url(../img/foto9.png);
+    width: 427px;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container > div > div > div > img{
+    width: 30px;
+    height: 30px;
+}
+
+.container >div >div {
+    background-color: #0000006B;
+}
+
+.container p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.barrinha{
+    width: 100%;
+    display: flex;
+    height: 74px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 22px 0 20px;
+}
+
+.barrinha-img{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+}
+
+footer h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+footer p{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 5rem;
+    margin-top: 34px;
+}
